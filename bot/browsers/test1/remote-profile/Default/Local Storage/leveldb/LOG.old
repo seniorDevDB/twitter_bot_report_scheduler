@@ -1,0 +1,20 @@
+2021/02/15-04:43:23.251 1a14 Reusing MANIFEST C:\Users\Administrator\Documents\automation\bot\browsers\test1\remote-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2021/02/15-04:43:23.252 1a14 Recovering log #317
+2021/02/15-04:43:23.253 1a14 Level-0 table #320: started
+2021/02/15-04:43:23.260 1a14 Level-0 table #320: 51186 bytes OK
+2021/02/15-04:43:23.264 1a14 Delete type=0 #317
+2021/02/15-04:43:40.229 80c Level-0 table #323: started
+2021/02/15-04:43:40.239 80c Level-0 table #323: 51559 bytes OK
+2021/02/15-04:43:40.241 80c Delete type=0 #321
+2021/02/15-04:43:40.245 2134 Compacting 4@0 + 1@1 files
+2021/02/15-04:43:40.250 2134 Generated table #324@0: 39 keys, 55803 bytes
+2021/02/15-04:43:40.250 2134 Compacted 4@0 + 1@1 files => 55803 bytes
+2021/02/15-04:43:40.256 2134 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/02/15-04:43:40.257 2134 Delete type=2 #314
+2021/02/15-04:43:40.257 2134 Delete type=2 #316
+2021/02/15-04:43:40.257 2134 Delete type=2 #318
+2021/02/15-04:43:40.257 2134 Delete type=2 #320
+2021/02/15-04:43:40.257 2134 Delete type=2 #323
+2021/02/15-05:50:54.379 1d30 Level-0 table #326: started
+2021/02/15-05:50:54.385 1d30 Level-0 table #326: 52041 bytes OK
+2021/02/15-05:50:54.388 1d30 Delete type=0 #322

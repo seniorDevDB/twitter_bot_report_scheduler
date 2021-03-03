@@ -1,0 +1,5 @@
+2021/02/20-22:52:46.465 2030 Reusing MANIFEST C:\Users\Administrator\Documents\bot\bot\browsers\test\remote-profile\Default\IndexedDB\https_71cd68f54be406f73379b49104a73130.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/20-22:52:49.900 1a64 Level-0 table #5: started
+2021/02/20-22:52:49.904 1a64 Level-0 table #5: 439 bytes OK
+2021/02/20-22:52:49.907 1a64 Delete type=0 #3
+2021/02/20-22:52:49.907 1a64 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

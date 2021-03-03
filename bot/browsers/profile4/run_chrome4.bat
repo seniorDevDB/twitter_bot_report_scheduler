@@ -1,0 +1,1 @@
+chrome.exe --remote-debugging-port=9227 --user-data-dir=remote-profile

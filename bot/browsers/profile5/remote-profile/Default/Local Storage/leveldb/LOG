@@ -1,0 +1,6 @@
+2021/02/02-08:06:30.954 1100 Reusing MANIFEST C:\Users\Administrator\Documents\automation\bot\browsers\profile5\remote-profile\Default\Local Storage\leveldb/MANIFEST-000001
+2021/02/02-08:06:30.974 1100 Recovering log #42
+2021/02/02-08:06:30.976 1100 Reusing old log C:\Users\Administrator\Documents\automation\bot\browsers\profile5\remote-profile\Default\Local Storage\leveldb/000042.log 
+2021/02/02-08:06:47.452 17b4 Level-0 table #47: started
+2021/02/02-08:06:47.457 17b4 Level-0 table #47: 52468 bytes OK
+2021/02/02-08:06:47.460 17b4 Delete type=0 #42

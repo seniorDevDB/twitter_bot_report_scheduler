@@ -1,0 +1,33 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/off.png",
+      "default_popup": "popup.html",
+      "default_title": "__MSG_title__"
+   },
+   "commands": {
+      "open-option": {
+         "description": "Open option page",
+         "suggested_key": {
+            "default": "Alt+O"
+         }
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "images/on.png",
+      "16": "images/on16.png",
+      "48": "images/on48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtX7ajYWp5ClE9Ffzjc+aOwuDL9pd4aQ6b8Eu3THBsysl0K/0ifSyDh1kI29XffdBlsIGo7IMias2WsZQz5A6xR9tvU4/pnDaIOePvJ8cYivpmEBNgtF+uco8GSOow3Ft7qxgOHoWAOrFDbUAvKNeJgcp4F/XotEmSF/OxVHRHmh5smM9+da1vhEKtWb/pgnonto9pJv8ssL2sxjHVvmlMi8aGBG/FFcTnpIXRZeq6Lc4UTkwldM6wpuSYurTAjgorB7IzTJEA0/DCdoXCyEzsl/J1OteFuN7TRh1yyQ4jxQWXYAfLN47aKUDPKTcjqHej3ODaUsZ2AsP+T3cY48NgwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "22.0.0",
+   "name": "__MSG_appName__",
+   "options_page": "options.html",
+   "permissions": [ "proxy", "tabs", "unlimitedStorage", "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2.7"
+}

@@ -1,0 +1,15 @@
+2021/02/02-07:31:06.239 24c4 Reusing MANIFEST C:\Users\Administrator\Documents\automation\bot\browsers\profile4\remote-profile\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/02-07:31:06.240 24c4 Recovering log #7
+2021/02/02-07:31:06.240 24c4 Reusing old log C:\Users\Administrator\Documents\automation\bot\browsers\profile4\remote-profile\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2021/02/02-07:31:33.957 1408 Level-0 table #12: started
+2021/02/02-07:31:33.960 1408 Level-0 table #12: 562 bytes OK
+2021/02/02-07:31:33.962 1408 Delete type=0 #7
+2021/02/02-07:31:33.963 1408 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/02/02-07:31:33.963 1408 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 77 : 1
+2021/02/02-07:31:33.963 1408 Compacting 1@1 + 1@2 files
+2021/02/02-07:31:33.966 1408 Generated table #13@1: 17 keys, 499 bytes
+2021/02/02-07:31:33.966 1408 Compacted 1@1 + 1@2 files => 499 bytes
+2021/02/02-07:31:33.968 1408 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/02/02-07:31:33.969 1408 Delete type=2 #9
+2021/02/02-07:31:33.969 1408 Delete type=2 #12
+2021/02/02-07:31:33.969 1408 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00y\x00t\x00-\x00i\x00d\x00b\x00-\x00t\x00e\x00s\x00t\x00-\x00d\x00o\x00-\x00n\x00o\x00t\x00-\x00u\x00s\x00e' @ 77 : 1 .. (end); will stop at (end)

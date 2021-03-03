@@ -1,0 +1,5 @@
+2021/02/10-07:46:36.815 1788 Reusing MANIFEST C:\Users\Administrator\Documents\automation\bot\browsers\test1\remote-profile\Default\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/10-07:47:04.840 1788 Level-0 table #5: started
+2021/02/10-07:47:04.842 1788 Level-0 table #5: 1165 bytes OK
+2021/02/10-07:47:04.845 1788 Delete type=0 #3
+2021/02/10-07:47:04.845 1788 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
