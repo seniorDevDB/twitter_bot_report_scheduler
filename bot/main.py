@@ -180,7 +180,7 @@ class Bot:
         bot_collection = self.twitter_bot_db["bot_infos"]
         reply_msg_collection = self.twitter_bot_db["reply_messages"]
         comment_collection = self.twitter_bot_db["reply_comments"]
-        used_account_col = self.twitter_bot_db['used_usernames']
+        used_account_col = self.twitter_bot_db['used_leads']
         report_col = self.twitter_bot_db["reports"]
         collection = self.username_db[public_or_private]
         print(type(collection))
@@ -207,36 +207,11 @@ class Bot:
 
                         #update the report
                         bot_num = each_user["bot_number"]
-                        updateField = "bot"+str(bot_num)+"_unsuccessful_dm" 
-                        for x in report_col.find({}):
-                            report_col.update_one({"_id": x["_id"]}, {"$inc": {updateField:1}}) 
+                        for x in report_col.find({"bot_number": bot_num}):
+                            report_col.update_one({"_id": x["_id"]}, {"$inc": {"expired_dm":1}}) 
 
                         collection.update_one({"username": each_user['username']}, {"$set": {'dm_expired': True}})
                         used_account_col.update_one({"_id": each_user['_id']}, {"$set": {'dm': False, 'dm_expired': True}})
-
-
-                        #do comment and update the database
-
-                        # _index = random.randint(0, len(self.browser_port_list)-1)
-                        # print("profile browser running", _index)
-                        # self.profile_index = _index
-                        # self.account_username = self.account_username_list[_index]
-
-                        # sleep(3)
-                        # random_profile_port = self.browser_port_list[_index]
-                        # print("port number", random_profile_port)
-                        # self.driver_startup(random_profile_port)
-                        # self.driver.maximize_window()
-                        # sleep(random.randint(10,15))
-
-                        # comment_result = self.comment()
-                        # if comment_result == False:
-                        #     used_account_col.update_one({"_id": each_user['_id']}, {"$set": {'comment': False}})
-                        # elif comment_result == True:
-                        #     used_account_col.update_one({"_id": each_user['_id']}, {"$set": {'comment': True, 'comment_time': datetime.now()}})
-
-                        # # change dm to true
-                        # used_account_col.update_one({"_id": each_user['_id']}, {"$set": {'dm': False}})
 
 
                 elif each_item == "comment" and each_user[each_item] == True:
@@ -251,9 +226,8 @@ class Bot:
 
                         #update the report
                         bot_num = each_user["bot_number"]
-                        updateField = "bot"+str(bot_num)+"_unsuccessful_comment" 
-                        for x in report_col.find({}):
-                            report_col.update_one({"_id": x["_id"]}, {"$inc": {updateField:1}})   
+                        for x in report_col.find({"bot_number": bot_num}):
+                            report_col.update_one({"_id": x["_id"]}, {"$inc": {"expired_comment":1}})   
                         print("here")
 
                         collection.update_one({"username": each_user['username']}, {"$set": {'comment_expired': True}})
